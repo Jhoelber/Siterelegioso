@@ -28,7 +28,7 @@ export const Vendas = () => {
 
         <h1 className="text-4xl font-extrabold leading-tight">
           <span className="text-sky-500">Transforme</span> sua vida espiritual{" "}
-          <span className="text-black">com Veritas</span>
+          <span className="text-black">com Raizes profundas</span>
         </h1>
 
         <p className="text-gray-700">
