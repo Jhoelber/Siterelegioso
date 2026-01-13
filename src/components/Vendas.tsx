@@ -122,7 +122,7 @@ export const Vendas = () => {
           <div className="mt-3 space-y-3 text-sm text-gray-800">
             <div className="flex items-start justify-between gap-3">
               <span className="font-bold">Plano Completo (recomendado)</span>
-              <span className="text-emerald-700 font-extrabold">Inclui tudo</span>
+              <span className="text-emerald-700 font-extrabold">Tudo incluso</span>
             </div>
             <ul className="pl-1 space-y-1">
               <li>✅ Guia Prático</li>
@@ -171,7 +171,7 @@ export const Vendas = () => {
         >
           Não quero a versão completa (somente Guia Prático)
         </button>
-           <p> Guia pratico por apenas <span className="text-red-500 line-through">R$29,90</span> por <span className="text-emerald-700">R$19,90</span> </p>
+           <p> Guia pratico por apenas <span className="text-emerald-700">R$19,90</span> </p>
         {/* Garantia */}
         <div className="pt-6 space-y-3">
           <h3 className="text-xl font-extrabold">Tem garantia?</h3>
