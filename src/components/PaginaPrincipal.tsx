@@ -23,7 +23,7 @@ export const PaginaPrincipal = () => {
         <img
           src={raizesProfundas}
           alt="Veritas"
-          className="w-40 md:w-56 h-auto"
+          className="w-26 h-26 md:w-56 "
         />
 
         {/* O que a pessoa vai receber (baseado nos PDFs) */}
