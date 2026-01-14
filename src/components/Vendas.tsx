@@ -179,7 +179,7 @@ export const Vendas = () => {
 
         <button
           className="
-            w-full py-4 rounded-xl font-extrabold text-white bg-green-600 
+            w-full py-4 rounded-xl font-extrabold text-white bg-green-600 p-4
             hover:bg-green-700 hover:shadow-lg hover:-translate-y-px
             active:translate-y-0 active:shadow-md
             transition-all duration-200 cursor-pointer
