@@ -129,25 +129,20 @@ export const Vendas = () => {
               <li>✅ 21 Dias de Paz Interior com a Fé Católica</li>
               <li>✅ Aromaterapia Religiosa</li>
             </ul>
-
-            <div className="h-px bg-gray-200 my-3" />
-
-            <div className="flex items-start justify-between gap-3">
-              <span className="font-bold">Plano Econômico</span>
-              <span className="text-sky-700 font-extrabold"> Apenas 1</span>
-            </div>
-            <ul className="pl-1 space-y-1">
-              <li>✅ Guia Prático</li>
-              <li>❌ Não inclui 21 Dias de Paz Interior com a Fé Católica</li>
-              <li>❌ Não inclui Aromaterapia Religiosa</li>
-            </ul>
           </div>
         </div>
-
-        {/* CTA PRINCIPAL (Completo) */}
+        <div className="flex gap-2 justify-center">
+          <div className="text-red-600 font-extrabold text-xl line-through">
+            DE R$ 49,90
+          </div>
+          <div className="text-black font-semibold text-xl">POR APENAS</div>
+          <div className="text-emerald-700 font-extrabold text-xl">
+            R$ 27,90
+          </div>
+        </div>
         <button
           className="
-            w-full py-4 rounded-xl font-extrabold text-white bg-green-600
+            w-full py-4 rounded-xl font-extrabold text-white bg-green-600 animate-pulse
             hover:bg-green-700 hover:shadow-lg hover:-translate-y-px
             active:translate-y-0 active:shadow-md
             transition-all duration-200 cursor-pointer
@@ -155,24 +150,47 @@ export const Vendas = () => {
           "
           onClick={irParaCheckoutCompleto}
         >
-          QUERO O PACOTE COMPLETO AGORA!
+          CLIQUE AQUI PARA COMPRAR PACOTE COMPLETO AGORA!
         </button>
 
-        {/* CTA SECUNDÁRIO (Econômico) */}
+        <div className="mt-3 space-y-3 text-sm text-gray-800 rounded-2xl bg-gray-50 p-5 text-left">
+          <div className="h-px bg-gray-200 my-3" />
+
+          <div className="flex items-start justify-between gap-3">
+            <span className="font-bold">Plano Econômico</span>
+            <span className="text-sky-700 font-extrabold"> Apenas 1</span>
+          </div>
+          <ul className="pl-1 space-y-1">
+            <li>✅ Guia Prático</li>
+            <li>❌ Não inclui 21 Dias de Paz Interior com a Fé Católica</li>
+            <li>❌ Não inclui Aromaterapia Religiosa</li>
+          </ul>
+        </div>
+
+        <div className="flex gap-2 justify-center">
+          <div className="text-red-600 font-extrabold text-xl line-through">
+            DE R$ 39,90
+          </div>
+          <div className="text-black font-semibold text-xl">POR APENAS</div>
+          <div className="text-emerald-700 font-extrabold text-xl">
+            R$ 19,90
+          </div>
+        </div>
+
         <button
           className="
-            w-full py-3 rounded-xl font-extrabold
-            text-sky-700 bg-sky-100 border border-sky-200
-            hover:bg-sky-200 hover:shadow-sm
+            w-full py-4 rounded-xl font-extrabold text-white bg-green-600 
+            hover:bg-green-700 hover:shadow-lg hover:-translate-y-px
+            active:translate-y-0 active:shadow-md
             transition-all duration-200 cursor-pointer
-            focus:outline-none focus:ring-4 focus:ring-sky-200
-          "
+            focus:outline-none focus:ring-4 focus:ring-green-200
+                    "
           onClick={irParaCheckoutEconomico}
         >
-          Não quero a versão completa (somente Guia Prático)
+          Clique aqui para comprar somente o guia pratico
         </button>
-           <p> Guia pratico por apenas <span className="text-emerald-700">R$19,90</span> </p>
-        {/* Garantia */}
+
+
         <div className="pt-6 space-y-3">
           <h3 className="text-xl font-extrabold">Tem garantia?</h3>
           <p className="text-gray-700">
