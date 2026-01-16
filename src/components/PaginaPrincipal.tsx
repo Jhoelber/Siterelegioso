@@ -34,7 +34,7 @@ export const PaginaPrincipal = () => {
 
           <div className="grid gap-3 text-left">
             <div className="border rounded-2xl p-4 bg-white shadow-sm">
-              <p className="font-extrabold text-slate-900">📘 Devocional diario </p>
+              <p className="font-extrabold text-slate-900">📘 Devocional Diario </p>
               <p className="text-sm text-slate-600">
                 Um método simples para fazer seu devocional diário (leitura, reflexão e oração).
               </p>
@@ -48,7 +48,7 @@ export const PaginaPrincipal = () => {
             </div>
 
             <div className="border rounded-2xl p-4 bg-white shadow-sm">
-              <p className="font-extrabold text-slate-900">🌿 aromaterapia religiosa</p>
+              <p className="font-extrabold text-slate-900">🌿 Aromaterapia Religiosa</p>
               <p className="text-sm text-slate-600">
                 Um guia de aromaterapia católica (intenção + oração + ambiente de paz).
               </p>
